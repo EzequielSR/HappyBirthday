@@ -32,15 +32,18 @@ div#beach {
 
 div#video {
     position: absolute;
-    right: 243px;
-    bottom: 200px;
+    bottom: 180px;
+    display: flex;
+    align-content: center;
 }
 
-div#video iframe {
-    width: 255px;
-    height: 155px;
+#localVideo{
+    width: 100%;
+    max-width: 300px;
+    display: none;
+    border-radius: 16px;
+    border: 6px solid black;
 }
-
 #people {
     position: absolute;
     bottom: 65px;
@@ -423,10 +426,6 @@ div#sea {
     div#video {
         right: 290px;
         bottom: 235px;
-    }
-    div#video iframe {
-        width: 295px;
-        height: 185px;
     }
     .moon {
         right: 230px;
