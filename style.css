@@ -44,6 +44,12 @@ div#video {
     border-radius: 16px;
     border: 6px solid black;
 }
+#center-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
 #people {
     position: absolute;
     bottom: 65px;
